@@ -1,0 +1,55 @@
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #4d4c4c, grey, #daf5ff);
+  color: white; 
+}
+  h1 {
+    font-family: "dancing script", cursive;
+    /* font-family: Cambria, Cochin, Georgia,'Times New Roman', serif; */
+    font-weight: 100px;
+    font-size: 45px;
+
+  }
+  h2 {
+    font-family: Cambria, Cochin, Georgia,'Times New Roman', serif;
+    /* font-family: "dancing script", cursive; */
+    font: weight 50px;
+    font-size: 40px;
+    margin: 0 auto;
+    color: white;
+  }
+h3 {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #4d4c4c;
+    text-align: right;
+  }
+h5 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    background-color: grey;
+}
+.nav-link {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+}
+
+/* .mapouter {
+position: center; */
+/* text-align: center; */
+/* width: 300px;
+height: 200px; */
+/* } */
+
+
+.gmap_canvas {
+overflow: hidden;
+background: none !important;
+/* height: 200px;
+width: 300px; */
+} 
+
