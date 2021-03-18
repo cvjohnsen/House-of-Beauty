@@ -5,7 +5,7 @@
   background-image: linear-gradient(to right, #4d4c4c, grey, #daf5ff);
   color: white; 
 }
-h1,h2,h3,h5,ul,p, .nav-link {
+h1,h2,h3,h5,ul,p, .nav-link .d-none{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
   h1 {
@@ -39,25 +39,35 @@ ul {
 }
 .container-fluid {
   background-color:grey;
-  margin-top: 100px; 
+  margin-top: 20px; 
 
 }
 .gmap_canvas {
 overflow: hidden;
 } 
-p, #mission #miss {
+p {
   color: white;
 }
-#miss {
- background-color:#4d4c4c;
-  margin: 100px auto; 
-  height: 300px;
+#statement {
+ color:#4d4c4c;
+  margin: 20px auto; 
+  height: 200px;
   width: 500px;
+  padding: 0 auto;
 }
 #mission {
   margin-top: 50px;
 }
-#artists, #mission {
+#artists, #mission{
   font-family: "dancing script", cursive;
   font-size: 30px;
+}
+.d-none, #mission{
+  color:grey;
+}
+#techs{
+  color: #4d4c4c;
+  font-family: "dancing script", cursive;
+  font-size: 30px;
+  text-align: center;
 }
