@@ -5,17 +5,15 @@
   background-image: linear-gradient(to right, #4d4c4c, grey, #daf5ff);
   color: white; 
 }
+h1,h2,h3,h5,ul,p, .nav-link {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
   h1 {
     font-family: "dancing script", cursive;
-    /* font-family: Cambria, Cochin, Georgia,'Times New Roman', serif; */
     font-weight: 100px;
     font-size: 45px;
-
   }
- 
   h2 {
-    font-family: Cambria, Cochin, Georgia,'Times New Roman', serif;
-    /* font-family: "dancing script", cursive; */
     font: weight 50px;
     font-size: 40px;
     margin: 0 auto;
@@ -23,34 +21,43 @@
   }
 h3 {
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #4d4c4c;
-    text-align: right;
+  color: white;
+  /* text-align: right; */
   }
-h5 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ul {
+  /* text-align: right; */
+  color: white;
+  list-style-type: none;
+  padding: 0 0 0 2px;
 }
 
 .navbar {
     background-color: grey;
 }
 .nav-link {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: larger;
 }
+.container-fluid {
+  background-color:grey;
+  margin-top: 100px; 
 
-/* .mapouter {
-position: center; */
-/* text-align: center; */
-/* width: 300px;
-height: 200px; */
-/* } */
-
-
+}
 .gmap_canvas {
 overflow: hidden;
-background: none !important;
-/* height: 200px;
-width: 300px; */
 } 
-
+p, #mission #miss {
+  color: white;
+}
+#miss {
+ background-color:#4d4c4c;
+  margin: 100px auto; 
+  height: 300px;
+  width: 500px;
+}
+#mission {
+  margin-top: 50px;
+}
+#artists, #mission {
+  font-family: "dancing script", cursive;
+  font-size: 30px;
+}
