@@ -1,11 +1,5 @@
 
-.jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #4d4c4c, grey, #daf5ff);
-  color: white; 
-}
-h1,h2,h3,h5,ul,p, .nav-link .d-none{
+h2,h3,h5,ul,p, .nav-link .d-none{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
   h1 {
@@ -30,8 +24,20 @@ ul {
   list-style-type: none;
   padding: 0 0 0 2px;
 }
-
-.navbar {
+p {
+  color: white;
+}
+footer{
+  font-family: "dancing script", cursive;
+  color:grey;
+}
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #4d4c4c, grey, #daf5ff);
+  color: white; 
+}
+.navbar{
     background-color: grey;
 }
 .nav-link {
@@ -40,20 +46,27 @@ ul {
 .container-fluid {
   background-color:grey;
   margin-top: 20px; 
-
 }
 .gmap_canvas {
 overflow: hidden;
 } 
-p {
-  color: white;
+li {
+ color: #4d4c4c;
 }
 #statement {
- color:#4d4c4c;
+ color: #4d4c4c;
   margin: 20px auto; 
-  height: 200px;
-  width: 500px;
+  /* height: 200px;
+  width: 500px; */
   padding: 0 auto;
+}
+#quote {
+ font-size: 1rem;
+ color: #4d4c4c;
+}
+#time {
+  font-size: .75rem;
+  color: grey;
 }
 #mission {
   margin-top: 50px;
@@ -62,7 +75,7 @@ p {
   font-family: "dancing script", cursive;
   font-size: 30px;
 }
-.d-none, #mission{
+.d-none, #mission, .service {
   color:grey;
 }
 #techs{
@@ -71,3 +84,5 @@ p {
   font-size: 30px;
   text-align: center;
 }
+
+
