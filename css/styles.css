@@ -16,10 +16,8 @@ h2,h3,h5,ul,p, .nav-link .d-none{
 h3 {
   font-size: 20px;
   color: white;
-  /* text-align: right; */
   }
 ul {
-  /* text-align: right; */
   color: white;
   list-style-type: none;
   padding: 0 0 0 2px;
@@ -27,7 +25,7 @@ ul {
 p {
   color: white;
 }
-footer{
+footer, h4{
   font-family: "dancing script", cursive;
   color:grey;
 }
@@ -68,14 +66,14 @@ li {
   font-size: .75rem;
   color: grey;
 }
-#mission {
+#mission, h4 {
   margin-top: 50px;
 }
 #artists, #mission{
   font-family: "dancing script", cursive;
   font-size: 30px;
 }
-.d-none, #mission, .service {
+.d-none, #mission, .service, h4, footer{
   color:grey;
 }
 #techs{
